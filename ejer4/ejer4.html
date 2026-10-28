@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejer4</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light min-vh-100 d-flex flex-column justify-content-center align-items-center">
+
+    <header class="mb-4">
+        <h1 class="text-info">Alumnos</h1>
+    </header>
+
+    <main class="card bg-secondary text-light p-4 shadow text-center" style="width: 100%; max-width: 450px;">
+        <section class="mb-3">
+            <button class="btn btn-primary btn-lg w-100 mb-3" onclick="rAlumnos()">Iniciar</button>
+            <div id="contenedor-boton-eliminar"></div>
+        </section>
+        
+        <section class="mt-3">
+            <article id="contenedor-alumnos" class="text-start"></article>
+        </section>
+        <a href="../index.html" class="btn btn-secondary btn-lg">Atras</a>
+    </main>
+  <script src="ejer4.js"></script>
+</body>
+</html>
